@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.week {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellowgreen;
+    transition: background-color 300ms ease-in;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.day:hover {
+    background-color: brown;
+}
+
+.date {
+    font-size: 24px;
+}
+
+.lessons {
+    margin-top: 1rem;
+}
+
+.lesson {
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0.5rem;
+    background-color: yellowgreen;
+    margin: 10px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    font-size: 2rem;
+}
